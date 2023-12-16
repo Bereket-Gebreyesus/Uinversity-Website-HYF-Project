@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta name ="viewport" content ="width= device-width, initial-scale=1.0">
+<head>
+  <title> Mekelle Institute of Technology </title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Poppins:ital,wght@0,200;0,400;0,700;0,800;1,200;1,300;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+  <body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"> <img src= "images/MIT_logo.png"></a>
+            <!-- id navLinks to use in javascript for the menu bar and for close button -->
+            <div class= "nav-links" id="navLinks">
+              <i class="fa fa-times" onclick="hideMenu()"></i>
+              
+                <ul>
+                        <li> <a href="index.html">HOME</a></li>
+                        <li> <a href="about.html">ABOUT</a></li>
+                        <li> <a href="courses.html">COURSES</a></li>
+                        <li> <a href="blog.html">BLOG</a></li>
+                        <li> <a href="contact.html">CONTACT</a></li>
+                </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Courses</h1>
+    </section>
+
+<!----Courses----->
+
+<section class="courses">
+  <h1>Courses Given At MIT</h1>
+  <P>Mekelle Institute of Technology Undergraduate Programs</P>
+
+  <div class="row">
+    <div class="courses-col">
+      <h3>Chemical and Biological Engineering</h3>
+      <p>Chemical and Biological Engineers apply their knowledge of chemistry, biology, and engineering principles to design and optimize processes and systems 
+        that involve chemical reactions, biochemical transformations, and the manipulation of biological systems. 
+        </p>
+    </div>
+    <div class="courses-col">
+      <h3>Computer Science and Engineering</h3>
+      <p>Computer science and engineering (CSE) is an academic program only given at MIT from all the 
+        Ethiopian universities which comprises approaches of computer science and computer engineering. 
+      </p>
+    </div>
+    <div class="courses-col">
+      <h3>Electrical and Electronics Engineering</h3>
+      <p>Electrical and electronics engineering is an engineering discipline concerned with the study, 
+        design, and application of equipment, devices, and systems which use electricity, electronics, a
+        nd electromagnetism.
+      </p>
+    </div>
+    
+  </div>
+
+</section>
+
+
+<!--------Call to Action------>
+
+<section class="cta">
+  <video autoplay muted loop playsinline>
+    <source src="video/Oxford University by drone.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <h1>Enroll For Online Courses<br>
+  Anywhere From The World</h1>
+  <a href="" class="hero-btn">CONTACT</a>
+</section>
+
+
+<section class="campus">
+  <h1>The Other campuses</h1>
+  <p>There are three other campuses included under mekelle university other than mekelle institute of technology</p>
+
+  <div class="row">
+   <div class="campus-col">
+    <img src="images/Campus_Arid.jpg">
+    <div class="layer">
+      <h3>Arid</h3>
+    </div>
+  </div>
+  <div class="campus-col">
+    <img src="images/Business_campus.jpg">
+    <div class="layer">
+      <h3>Business</h3>
+    </div>
+  </div>
+  <div class="campus-col">
+    <img src="images/Campus_Ayder.jpg">
+    <div class="layer">
+      <h3>Ayder</h3>
+    </div>
+  </div>
+</div>
+
+</section>
+
+<!--------footer------>
+
+<section class="footer">
+  <h4>STAY CONNECTED</h4>
+  <P>Stay connected with our vibrant university community and stay updated
+   on the latest news, events, and achievements<br> by following us on our various social media platforms. </P>
+   <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>  
+   </div>
+   <p>Made by Bereket Gebreyesus <i class="fa fa-copyright"></i> 2023.  </p>
+</section>
+
+
+    <script src="script.js"></script>
+    <!-- Scroll to Top Button -->
+<div id="scrollToTopBtn" onclick="scrollToTop()">
+  <i class="fa fa-arrow-up"></i>
+</div>
+  </body>
+</html>
