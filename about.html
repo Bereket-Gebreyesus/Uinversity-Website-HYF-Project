@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta name ="viewport" content ="width= device-width, initial-scale=1.0">
+<head>
+  <title> Mekelle Institute of Technology </title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Poppins:ital,wght@0,200;0,400;0,700;0,800;1,200;1,300;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+  <body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"> <img src= "images/MIT_logo.png"></a>
+            <!-- id navLinks to use in javascript for the menu bar and for close button -->
+            <div class= "nav-links" id="navLinks">
+              <i class="fa fa-times" onclick="hideMenu()"></i>
+              
+                <ul>
+                        <li> <a href="index.html">HOME</a></li>
+                        <li> <a href="about.html">ABOUT</a></li>
+                        <li> <a href="courses.html">COURSES</a></li>
+                        <li> <a href="blog.html">BLOG</a></li>
+                        <li> <a href="contact.html">CONTACT</a></li>
+                </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About</h1>
+    </section>
+
+    <!----About----->
+
+    <section class="about">
+      <div class="row">
+        <div class="text-about">
+          <h1>About Mekelle Institute of Technology</h1>
+          <p>Mekelle Institute of Technology (MIT) is an educational institute created in Mekelle, the capital of the Tigray Region of Ethiopia,
+          <br>in 2002,aiming to teach and do research in engineering, science and technology.
+          In 2020, MIT integrated with Mekelle University.<br>MIT graduated its first batch of 142 students on July 7, 2007. 
+          In 2007, 560 students studied in the MIT Faculty of Engineering.</p>
+          <a href=""class="hero-btn green-btn">Read More</a>
+        </div>
+        <div class="slideshow-container">
+          <div class="mySlides">
+            <img src="images/building.jpg">
+          </div>
+          <div class="mySlides">
+            <img src="images/graduation1.jpg">
+          </div>
+          <div class="mySlides">
+            <img src="images/onlinecourse.jpg">
+          </div>
+          <div class="slideshow-dots">
+            <div class="dot active"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <!-- Add more dots as needed -->
+          </div>
+          <div style="text-align:center; margin-top: 10px;">
+            <span class=" dot"></span>
+            <span class="dot"></span>
+          </div>
+          
+      </div>
+      
+
+    </section>
+
+
+
+
+<!--------footer------>
+
+<section class="footer">
+  <h4>STAY CONNECTED</h4>
+  <P>Stay connected with our vibrant university community and stay updated
+   on the latest news, events, and achievements<br> by following us on our various social media platforms. </P>
+   <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>  
+   </div>
+   <p>Made by Bereket Gebreyesus <i class="fa fa-copyright"></i> 2023.  </p>
+</section>
+
+
+    <script src="script.js"></script>
+    <!-- Scroll to Top Button -->
+<div id="scrollToTopBtn" onclick="scrollToTop()">
+  <i class="fa fa-arrow-up"></i>
+</div>
+  </body>
+</html>
