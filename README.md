@@ -8,9 +8,7 @@ Course Catalog: An organized catalog of academic courses offered by the universi
 Contact Us: Contact information for various departments, administrative offices, and key personnel, along with a contact form for inquiries.
 
 # Technologies Used:
-HTML
-JavaScript
-CSS and PHP
+HTML, JavaScript, CSS and PHP
 
 # Disclaimer:
 
